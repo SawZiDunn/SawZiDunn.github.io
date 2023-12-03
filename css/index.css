@@ -1,0 +1,40 @@
+body{
+    margin:0;
+    background-image: url("../img/bg.jpg");
+}
+
+.menubar{
+    list-style-type:none;
+    background-image: url(https://besthqwallpapers.com/Uploads/15-4-2019/87588/thumb2-program-code-black-backgrounds-programming-background-with-program-code-code.jpg);
+    width: 15.3%;
+    height: 100%;
+    overflow: auto;
+    position: fixed;
+
+}
+
+.menubar li a{
+    display:block;
+    padding: 8px 15px;
+    color: white;
+    font-size: 19px;
+    text-decoration: none;
+
+}
+
+.menubar li a.active{
+    background-color: #51a74a;
+}
+
+.menubar li a:hover{
+    background-color: #51a74a;
+}
+
+main{
+    font-size: large;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Set the height of the container to the full viewport height */
+}
